@@ -3,7 +3,7 @@ import { Actions, createEffect, ofType } from "@ngrx/effects";
 import { Store } from "@ngrx/store";
 import { mergeMap, tap } from "rxjs";
 import { loadPeople, loadPeopleSuccess, startLoading, stopLoading } from "../actions/app.actions";
-import { AppService } from "../services/app.service";
+import { AppService } from "../../services/app.service";
 
 @Injectable()
 export class AppEffects {

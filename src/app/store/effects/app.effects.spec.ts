@@ -1,12 +1,12 @@
 import { TestBed } from "@angular/core/testing";
 import { Store, StoreModule } from "@ngrx/store";
 import { Observable, of } from "rxjs";
-import { AppService } from "../services/app.service";
+import { AppService } from "../../services/app.service";
 import { AppEffects } from "./app.effects";
 import { provideMockActions } from '@ngrx/effects/testing';
-import { AppMockService } from "../services/app.mock.service";
+import { AppMockService } from "../../services/app.mock.service";
 import { loadPeople, loadPeopleSuccess, startLoading, stopLoading } from "../actions/app.actions";
-import { PEOPLE_MOCK } from "../mocks/people.mock";
+import { PEOPLE_MOCK } from "../../mocks/people.mock";
 
 describe('App Effects Testing', () => {
     let appService: AppService;

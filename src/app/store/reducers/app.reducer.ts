@@ -1,6 +1,6 @@
 import { createReducer, on } from '@ngrx/store';
+import { People } from 'src/app/models/people.model';
 import { loadPeopleSuccess, startLoading, stopLoading } from '../actions/app.actions';
-import { People } from '../models/people.model';
 
 export interface IAppState {
   isLoading: boolean;

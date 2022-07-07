@@ -1,5 +1,5 @@
 
-import { PEOPLE_MOCK } from '../mocks/people.mock';
+import { PEOPLE_MOCK } from '../../mocks/people.mock';
 import * as actions from './app.actions'
 
 describe('App actions testing', () => {

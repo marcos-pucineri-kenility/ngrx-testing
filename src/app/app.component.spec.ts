@@ -3,7 +3,7 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { AppComponent } from './app.component';
 import { MockStore, provideMockStore } from '@ngrx/store/testing'
 import { IAppStateWrapper } from './store/reducers/app.reducer';
-import { PEOPLE_MOCK } from './store/mocks/people.mock';
+import { PEOPLE_MOCK } from './mocks/people.mock';
 
 describe('AppComponent', () => {
   let store: MockStore;

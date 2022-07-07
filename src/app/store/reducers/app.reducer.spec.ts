@@ -1,5 +1,5 @@
 import { loadPeopleSuccess, startLoading, stopLoading } from "../actions/app.actions";
-import { PEOPLE_MOCK } from "../mocks/people.mock";
+import { PEOPLE_MOCK } from "../../mocks/people.mock";
 import { initialState, reducer } from "./app.reducer";
 
 describe('Reducer testing', () => {

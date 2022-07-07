@@ -1,5 +1,5 @@
 import { createAction, props } from '@ngrx/store';
-import { People } from '../models/people.model';
+import { People } from '../../models/people.model';
 
 export const startLoading = createAction('[App] Start loading');
 

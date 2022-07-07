@@ -3,8 +3,8 @@ import { Store } from '@ngrx/store';
 import { Observable } from 'rxjs';
 import { loadPeople, startLoading } from './store/actions/app.actions';
 import { IAppStateWrapper } from './store/reducers/app.reducer';
-import { AppService } from './store/services/app.service';
-import { People } from './store/models/people.model';
+import { AppService } from './services/app.service';
+import { People } from './models/people.model';
 
 @Component({
   selector: 'app-root',
